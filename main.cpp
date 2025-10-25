@@ -11,6 +11,7 @@ bool isPyth(size_t a, size_t b, size_t c){
 int main(){
   using u_t = unsigned;
   u_t a = 0, b = 0, c= 0;
+  std::cin >> c >> b;
   size_t count = 0;
   
   while (std::cin >> a){
